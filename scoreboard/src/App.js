@@ -15,13 +15,13 @@ function App() {
       <section className="scoreboard">
         <div className="topRow">
           <div className="home">
-            <h2 className="home__name">Lions</h2>
+            <h2 className="home__name" data-testid="lions-scoreboard">Lions</h2>
 
             <div className="home__score">{lionsScore}</div>
           </div>
           <div className="timer">00:03</div>
           <div className="away">
-            <h2 className="away__name">Tigers</h2>
+            <h2 className="away__name" data-testid="tigers-scoreboard">Tigers</h2>
             <div className="away__score">{tigersScore}</div>
           </div>
         </div>
